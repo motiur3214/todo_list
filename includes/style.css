@@ -1,0 +1,136 @@
+
+body {
+	height: 100%;
+	width: 99.9%;
+	margin: 0;
+	background-color: rgb(233, 225, 225);
+	overflow-x:hidden;
+
+}
+.mainContainer {
+	height: 100%;
+	margin: 3px;
+	background-color: rgb(233, 225, 225);
+}
+h1 {
+	padding-top: 40px; 
+	font-size: 60px;
+	text-align: center;
+
+	color: rgb(223, 149, 149);
+}
+.actionDiv{
+	margin: auto;
+	width: 50%;
+	border:none;
+}
+.w-90{
+	border:none;
+}
+#inputValue:hover, 
+#inputValue:active, 
+#inputValue:focus
+{    
+	outline:0px !important;
+	-webkit-appearance:none;
+	box-shadow: none !important;
+}
+
+.submitBtn{
+	display: none !important;
+}
+.w-90::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+	opacity: 1; /* Firefox */
+	font-style: italic;
+	font-size: 24px;
+}
+input[type="text"]
+{   
+	font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+	font-size:24px;
+}
+#labelId{
+	font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+	font-size:22px;
+	padding-left: 10px;
+}
+#myDIV input[type="checkbox"] {
+	width: 20px;
+	margin-right: 10px;
+	opacity: .5;
+	cursor: pointer;
+
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+/* Track scroll bar*/
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background: rgba(255,0,0,0.8); 
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+#myDIV{
+
+	display: none;
+	height: auto;
+	max-height:300px;
+	overflow-y:auto;
+}
+.btn-light{
+	width:auto ;
+	height:auto;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	border:solid 1px #c0c4be;
+	background-color: #e7e8e3;
+	color :grey ;
+}
+#btnDiv{
+	/*display: none;*/
+	text-align: center !important;
+	height:30px;
+	width: 99.9%;
+	background-color: #e7e8e3;
+
+}
+#spaces{
+	padding-left: 30px;
+	display: none;
+}
+#remitem{
+	float: left;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: grey;
+}
+.editable-label-text{
+	margin-top: 2px;
+	outline-style: none;
+	border:none;
+	box-shadow: inset 0 0 0 0px , 0 0 3px 1px hotpink;
+}
+#todoList {
+
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	margin-left: 10px;
+}
